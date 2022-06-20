@@ -14,6 +14,8 @@
 		C42778C92860A3C8000C6ABF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42778C82860A3C8000C6ABF /* CardView.swift */; };
 		C42778CC2860ACB3000C6ABF /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42778CB2860ACB3000C6ABF /* CardModel.swift */; };
 		C42778CF2860AD66000C6ABF /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42778CE2860AD66000C6ABF /* CardData.swift */; };
+		C42778D12860AFF8000C6ABF /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C42778D02860AFF8000C6ABF /* sound-chime.mp3 */; };
+		C42778D52860B03D000C6ABF /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42778D42860B03D000C6ABF /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C42778C82860A3C8000C6ABF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C42778CB2860ACB3000C6ABF /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		C42778CE2860AD66000C6ABF /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		C42778D02860AFF8000C6ABF /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		C42778D42860B03D000C6ABF /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		C42778B628609FC9000C6ABF /* Developer-Cards-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C42778D32860B010000C6ABF /* Utillity */,
+				C42778D22860AFFF000C6ABF /* Sound */,
 				C42778CD2860AD59000C6ABF /* Data */,
 				C42778CA2860ACA6000C6ABF /* Model */,
 				C42778C72860A3BA000C6ABF /* View */,
@@ -108,6 +114,22 @@
 				C42778CE2860AD66000C6ABF /* CardData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		C42778D22860AFFF000C6ABF /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				C42778D02860AFF8000C6ABF /* sound-chime.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		C42778D32860B010000C6ABF /* Utillity */ = {
+			isa = PBXGroup;
+			children = (
+				C42778D42860B03D000C6ABF /* PlaySound.swift */,
+			);
+			path = Utillity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C42778BF28609FCD000C6ABF /* Preview Assets.xcassets in Resources */,
+				C42778D12860AFF8000C6ABF /* sound-chime.mp3 in Resources */,
 				C42778BC28609FCD000C6ABF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C42778CF2860AD66000C6ABF /* CardData.swift in Sources */,
+				C42778D52860B03D000C6ABF /* PlaySound.swift in Sources */,
 				C42778BA28609FC9000C6ABF /* ContentView.swift in Sources */,
 				C42778CC2860ACB3000C6ABF /* CardModel.swift in Sources */,
 				C42778C92860A3C8000C6ABF /* CardView.swift in Sources */,
